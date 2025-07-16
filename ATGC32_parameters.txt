@@ -1,0 +1,2 @@
+﻿trials,rt_size,mean_indel,jmp,mean_jmp,chinese,theta,alpha,w_dcj,w_gc,w_gcu,w_cga,trees,leave_n,std_indel,std_jmp
+10,728,0.010,True,0.030,True,704,0.959,True,True,True,True,True,11,0.014,0.0.085

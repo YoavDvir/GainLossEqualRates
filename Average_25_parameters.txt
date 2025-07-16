@@ -1,0 +1,13 @@
+﻿trials,rt_size,mean_indel,jmp,mean_jmp,chinese,theta,alpha,w_dcj,w_gc,w_gcu,w_cga,trees,leave_n,std_indel,std_jmp
+10000,1800,0.03,True,0.0.075,True,717,0.965,False,True,True,True,True,25,0.03,0.155
+   # Average
+    """
+    leaves_number = 25
+    root_size = 1800
+    theta = 717
+    alph = 0.965
+    mean_edge_lengths_indel = 0.03
+    stdev_edge_lengths_indel = 0.03
+    mean_edge_lengths_jump = 0.075
+    stdev_edge_lengths_jump = 0.155
+    """
