@@ -1,6 +1,10 @@
 # GainLossEqualRates
 
-If the method DCJ is applied then Java 8 must be installed to run. You must also download UniMoG (BiBiServ2 - DCJ), which should be in the same folder as the code.
+In this repository, we test methods for phylogenetic tree reconstruction for prokaryotes. For the simulations, we assume our stochastic gain/loss model.
+All the methods are based on gene dynamics and equal gain and loss rates. 
+The methods DCJ, GC, GCU, and CGA compute distance matrices, and then BioPython NJ reconstructs the tree.
+
+If the DCJ method is applied, Java 8 must be installed to run. You must also download UniMoG (BiBiServ2 - DCJ), which should be in the same folder as the code.
 
 
 You can find here the following 4 Python files:
