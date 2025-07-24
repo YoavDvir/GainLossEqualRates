@@ -7,7 +7,7 @@ The methods DCJ, GC, GCU, and CGA compute distance matrices, and then BioPython 
 If the DCJ method is applied, Java 8 must be installed to run. You must also download UniMoG (BiBiServ2 - DCJ), which should be in the same folder as the code.
 
 
-You can find here the following 4 Python files:
+You can find here the following 5 Python files:
 1. Indel_sim.py - trees or one-edge simulations
    
 This program conducts simulations:
@@ -42,7 +42,23 @@ one_edge_pure_jump_parameters.txt
 
 Output: printed on the screen.
 
-2. Indel_real_data_creates_trees.py
+2. ChineseParameters.py
+
+   Compute parameters such as theta and alpha, given the number of genes, the number of COGs, and the number of trivial COGs.
+
+   Example for the command line:
+
+   py ChineseParameters.py 2000 1940 1900
+
+   The result is:
+
+   [679.6849308    0.96118998]
+
+That means that if we create 2000 genes (customers) with the Chinese restaurant process with parameters theta=679.6849308 and alpha=0.96118998
+
+The expected number of COGs (tables) of the process will be 1940, and the expected number of trivial COGs (tables with one client) will be 1900.
+
+4. Indel_real_data_creates_trees.py
    
 This program creates a tree for a given ATGC number for each of the tested methods (DCJ, GC, GCU, or CGA)
 
